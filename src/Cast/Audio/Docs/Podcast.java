@@ -1,6 +1,6 @@
 package Cast.Audio.Docs;
 
-public class Podcast extends Audio{
+public class Podcast extends Audio {
     private String host;
     private String description;
 
@@ -19,4 +19,13 @@ public class Podcast extends Audio{
     public void setHost(String host) {
         this.host = host;
     }
+
+    @Override
+    public int getCategorie() {
+        if (this.getTotalLikes() > 500)
+        return 10;
+    } else static {
+        return 8;
+}
+
 }
