@@ -22,10 +22,10 @@ public class Podcast extends Audio {
 
     @Override
     public int getCategorie() {
-        if (this.getTotalLikes() > 500)
-        return 10;
-    } else static {
-        return 8;
-}
-
-}
+        if (this.getTotalLikes() > 500) {
+            return 10;
+        } else {
+            return 8;
+        }
+      }
+    }

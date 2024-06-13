@@ -1,6 +1,7 @@
 package Cast.Audio.Main;
 
 import Cast.Audio.Docs.Music;
+import Cast.Audio.Docs.MyFavorites;
 import Cast.Audio.Docs.Podcast;
 
 public class Main {
@@ -27,5 +28,9 @@ public class Main {
         for (int i = 0; i < 1500; i++) {
             myPodcast.like();
         }
+
+        MyFavorites myFavorites = new MyFavorites();
+        myFavorites.include(myPodcast);
+        myFavorites.include(myMusic);
     }
 }
