@@ -8,7 +8,9 @@ public class Main {
     public static void main(String[] args) {
         Music myMusic = new Music();
         myMusic.setTitle("Fly me to the moon");
-        myMusic.setTitle("Frank Sinatra");
+        myMusic.setArtist("Frank Sinatra");
+        myMusic.setGender("Romantic");
+        myMusic.setAlbum("Most Played");
 
         for (int i = 0; i < 1000; i++) {
             myMusic.played();
