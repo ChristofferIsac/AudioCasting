@@ -24,5 +24,6 @@ public class Main {
 Este projeto foi feito com base nos seguintes aplicativos:
 
 - `Spotfy`
+- `Deezer`
 - `Youtube Music`
 
