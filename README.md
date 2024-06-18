@@ -1,4 +1,4 @@
-<h1> AudioCasting </h1>h1>
+<h1> AudioCasting </h1>
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Uxtraordinario/AudioCasting?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/Uxtraordinario/AudioCasting?style=for-the-badge)
@@ -16,8 +16,14 @@ public class Main {
         myMusic.setTitle("Fly me to the moon");
         myMusic.setArtist("Frank Sinatra");
         myMusic.setGender("Romantic");
-        myMusic.setAlbum("Most Played");
 ```
+
+```java
+Playlist myPlaylist = new Playlist();
+        myPlaylist.setAlbum("Frank Sinatra Most Played");
+        myPlaylist.setGender("Romantic");
+```
+
 
 ## Inspirações para este projeto
 
