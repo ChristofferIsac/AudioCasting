@@ -2,6 +2,7 @@ package Cast.Audio.Main;
 
 import Cast.Audio.Docs.Music;
 import Cast.Audio.Docs.MyFavorites;
+import Cast.Audio.Docs.Playlist;
 import Cast.Audio.Docs.Podcast;
 
 public class Main {
@@ -10,7 +11,10 @@ public class Main {
         myMusic.setTitle("Fly me to the moon");
         myMusic.setArtist("Frank Sinatra");
         myMusic.setGender("Romantic");
-        myMusic.setAlbum("Most Played");
+
+        Playlist myPlaylist = new Playlist();
+        myPlaylist.setAlbum("Frank Sinatra Most Played");
+        myPlaylist.setGender("Romantic");
 
         for (int i = 0; i < 1000; i++) {
             myMusic.played();
