@@ -3,6 +3,7 @@ package Cast.Audio.Docs;
 public class Playlist extends Music {
     private String album;
     private int musicsList;
+    private String categorie;
 
     public int getMusicsList() {
         return musicsList;
@@ -18,6 +19,14 @@ public class Playlist extends Music {
 
     public void setAlbum(String album) {
         this.album = album;
+    }
+
+    public String getCategorie() {
+        return categorie;
+    }
+
+    public void setCategorie(String categorie) {
+        this.categorie = categorie;
     }
 }
 

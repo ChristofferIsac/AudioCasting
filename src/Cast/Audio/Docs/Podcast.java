@@ -3,6 +3,7 @@ package Cast.Audio.Docs;
 public class Podcast extends Audio {
     private String host;
     private String description;
+    private int episode;
 
     public String getDescription() {
         return description;
@@ -28,4 +29,12 @@ public class Podcast extends Audio {
             return 8;
         }
       }
+
+    public int getEpisode() {
+        return episode;
     }
+
+    public void setEpisode(int episode) {
+        this.episode = episode;
+    }
+}

@@ -12,9 +12,19 @@ public class Main {
         myMusic.setArtist("Frank Sinatra");
         myMusic.setGender("Romantic");
 
+        Music myMusic1 = new Music();
+        myMusic1.setTitle("Sway");
+        myMusic1.setArtist("Michale Bublée");
+        myMusic1.setGender("Romantic");
+
+        Music myMusic2 = new Music();
+        myMusic2.setTitle("Never Gonna Give You Up");
+        myMusic2.setArtist("Rick Astley");
+        myMusic2.setGender("Romantic");
+
         Playlist myPlaylist = new Playlist();
-        myPlaylist.setAlbum("Frank Sinatra Most Played");
-        myPlaylist.setGender("Romantic");
+        myPlaylist.setAlbum("Loved One");
+        myPlaylist.setCategorie("80s");
 
         for (int i = 0; i < 1000; i++) {
             myMusic.played();
@@ -24,8 +34,8 @@ public class Main {
         myMusic.like();
         }
         Podcast myPodcast = new Podcast();
-        myPodcast.setTitle("DesenCast");
-        myPodcast.setDescription("Our favorite youtubers, right here!");
+        myPodcast.setTitle("Podcastors");
+        myPodcast.setDescription("Our knowledge in a good way");
 
         for (int i = 0; i < 500; i++) {
             myPodcast.played();
